@@ -1,27 +1,41 @@
-# AngularAccessibilityLinters
+# Accessibility Linters for Angular applications
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Comparison table of angular-eslint and html-validate against Axe Accessibility Linter
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+| **Axe Accessibility Linter**                                                               | **angular-eslint & html-validate**                                                                                                                                               |
+| ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [area-alt](https://dequeuniversity.com/rules/axe/4.4/area-alt)                             | [template-accessibility-alt-text](http://codelyzer.com/rules/template-accessibility-alt-text), [area-alt](http://codelyzer.com/rules/template-accessibility-alt-text)            |
+| [aria-allowed-attr](https://dequeuniversity.com/rules/axe/4.4/aria-allowed-attr)           | [template-accessibility-valid-aria](http://codelyzer.com/rules/template-accessibility-valid-aria)                                                                                |
+| [aria-allowed-role](https://dequeuniversity.com/rules/axe/4.4/aria-allowed-role)           |                                                                                                                                                                                  |
+| [aria-command-name](https://dequeuniversity.com/rules/axe/4.4/aria-command-name)           |                                                                                                                                                                                  |
+| [aria-dialog-name](https://dequeuniversity.com/rules/axe/4.4/aria-dialog-name)             |                                                                                                                                                                                  |
+| [aria-input-field-name](https://dequeuniversity.com/rules/axe/4.4/aria-input-field-name)   |                                                                                                                                                                                  |
+| [aria-meter-name](https://dequeuniversity.com/rules/axe/4.4/aria-meter-name)               |                                                                                                                                                                                  |
+| [aria-progressbar-name](https://dequeuniversity.com/rules/axe/4.4/aria-progressbar-name)   |                                                                                                                                                                                  |
+| [aria-required-attr](https://dequeuniversity.com/rules/axe/4.4/aria-required-attr)         |                                                                                                                                                                                  |
+| [aria-roles](https://dequeuniversity.com/rules/axe/4.4/aria-roles)                         |                                                                                                                                                                                  |
+| [aria-toggle-field-name](https://dequeuniversity.com/rules/axe/4.4/aria-toggle-field-name) |                                                                                                                                                                                  |
+| [aria-tooltip-name](https://dequeuniversity.com/rules/axe/4.4/aria-tooltip-name)           |                                                                                                                                                                                  |
+| [aria-treeitem-name](https://dequeuniversity.com/rules/axe/4.4/aria-treeitem-name)         |                                                                                                                                                                                  |
+| [aria-valid-attr](https://dequeuniversity.com/rules/axe/4.4/aria-valid-attr)               | [template-accessibility-valid-aria](http://codelyzer.com/rules/template-accessibility-valid-aria)                                                                                |
+| [aria-valid-attr-value](https://dequeuniversity.com/rules/axe/4.4/aria-valid-attr-value)   | [template-accessibility-valid-aria](http://codelyzer.com/rules/template-accessibility-valid-aria)                                                                                |
+| [autocomplete-valid](https://dequeuniversity.com/rules/axe/4.4/autocomplete-valid)         |                                                                                                                                                                                  |
+| [button-name](https://dequeuniversity.com/rules/axe/4.4/button-name)                       | [template-accessibility-elements-content](http://codelyzer.com/rules/template-accessibility-elements-content)                                                                    |
+| [frame-title](https://dequeuniversity.com/rules/axe/4.4/frame-title)                       |                                                                                                                                                                                  |
+| [html-has-lang](https://dequeuniversity.com/rules/axe/4.4/html-has-lang)                   |                                                                                                                                                                                  |
+| [image-alt](https://dequeuniversity.com/rules/axe/4.4/image-alt)                           | [template-accessibility-alt-text](http://codelyzer.com/rules/template-accessibility-alt-text), [wcag/h37](https://html-validate.org/rules/wcag/h37.html)                         |
+| [input-button-name](https://dequeuniversity.com/rules/axe/4.4/input-button-name)           |                                                                                                                                                                                  |
+| [input-image-alt](https://dequeuniversity.com/rules/axe/4.4/input-image-alt)               | [template-accessibility-alt-text](http://codelyzer.com/rules/template-accessibility-alt-text), [wcag/h37](https://html-validate.org/rules/wcag/h37.html)                         |
+| [label](https://dequeuniversity.com/rules/axe/4.4/label)                                   | [template-accessibility-label-for](http://codelyzer.com/rules/template-accessibility-label-for), [input-missing-label](https://html-validate.org/rules/input-missing-label.html) |
+| [link-name](https://dequeuniversity.com/rules/axe/4.4/link-name)                           | [wcag/h30](https://html-validate.org/rules/wcag/h30.html)                                                                                                                        |
+| [meta-refresh](https://dequeuniversity.com/rules/axe/4.4/meta-refresh)                     | [meta-refresh](https://html-validate.org/rules/meta-refresh.html)                                                                                                                |
+| [meta-viewport](https://dequeuniversity.com/rules/axe/4.4/meta-viewport)                   |                                                                                                                                                                                  |
+| [nested-interactive](https://dequeuniversity.com/rules/axe/4.4/nested-interactive)         |                                                                                                                                                                                  |
+| [object-alt](https://dequeuniversity.com/rules/axe/4.4/object-alt)                         |                                                                                                                                                                                  |
+| [role-img-alt](https://dequeuniversity.com/rules/axe/4.4/role-img-alt)                     |                                                                                                                                                                                  |
+| [select-name](https://dequeuniversity.com/rules/axe/4.4/select-name)                       |                                                                                                                                                                                  |
+| [svg-img-alt](https://dequeuniversity.com/rules/axe/4.4/svg-img-alt)                       |                                                                                                                                                                                  |
+| [tabindex](https://dequeuniversity.com/rules/axe/4.4/tabindex)                             | [template-accessibility-tabindex-no-positive](http://codelyzer.com/rules/template-accessibility-tabindex-no-positive)                                                            |
+| [valid-lang](https://dequeuniversity.com/rules/axe/4.4/valid-lang)                         | <br><br>                                                                                                                                                                         |
