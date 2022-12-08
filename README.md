@@ -1,5 +1,13 @@
 # Accessibility Linters for Angular applications
 
+In this repository you can see the implementation of @angular-eslint and html-validate configured to find accessibility errors. To see the linter in action you must follow these steps:
+
+1) Download the code.
+2) Execute the `npm install` command
+3) Execute `npm run lint` to see the analysis of angular-eslint
+4) Execute `npm run lint-a11y` to see the analysis of html-validate
+
+This repository is part of a Medium article called Accessibility Linters for Angular applications. I recommend you to read the full article.
 
 
 ### Comparison table of angular-eslint and html-validate against Axe Accessibility Linter
