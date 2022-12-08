@@ -7,7 +7,7 @@ In this repository you can see the implementation of @angular-eslint and html-va
 3) Execute `npm run lint` to see the analysis of angular-eslint
 4) Execute `npm run lint-a11y` to see the analysis of html-validate
 
-This repository is part of a Medium article called Accessibility Linters for Angular applications. I recommend you to read the full article.
+This repository is part of a Medium article called [Accessibility Linters for Angular applications](https://medium.com/@danioropezasoria/accessibility-linters-for-angular-applications-224983a27b77). I recommend you to read the full article.
 
 
 ### Comparison table of angular-eslint and html-validate against Axe Accessibility Linter
