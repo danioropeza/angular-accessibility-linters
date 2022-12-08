@@ -12,6 +12,8 @@ This repository is part of a Medium article called Accessibility Linters for Ang
 
 ### Comparison table of angular-eslint and html-validate against Axe Accessibility Linter
 
+In this table, we check each of the Axe rules to see if angular-eslint or html-validate can also validate them.
+
 | **Axe Accessibility Linter**                                                               | **angular-eslint & html-validate**                                                                                                                                               |
 | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [area-alt](https://dequeuniversity.com/rules/axe/4.4/area-alt)                             | [template-accessibility-alt-text](http://codelyzer.com/rules/template-accessibility-alt-text), [area-alt](http://codelyzer.com/rules/template-accessibility-alt-text)            |
