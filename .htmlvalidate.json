@@ -1,0 +1,4 @@
+{
+  "plugins": ["./htmlvalidate"],
+  "extends": ["your-app-name-a11y:recommended"]
+}

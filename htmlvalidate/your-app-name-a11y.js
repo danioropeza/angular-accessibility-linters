@@ -2,7 +2,7 @@
 var htmlValidate = require('html-validate');
 
 module.exports = htmlValidate.definePlugin({
-  name: "cxws-a11y",
+  name: "your-app-name-a11y",
   configs: {
     recommended: {
       rules: {
